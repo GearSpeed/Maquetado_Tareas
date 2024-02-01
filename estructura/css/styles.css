@@ -1,0 +1,64 @@
+#header{
+    position: relative;
+    background-color: bisque;
+}
+.align{
+    text-align: center;
+}
+
+.aside1{
+    position: relative;
+    top: -7574px;
+    left: 762.5px;
+    text-align: center;
+    width: 50%;
+    border: 3px solid rgb(79, 108, 255);
+}
+
+.article1{
+    position: relative;
+    left: 0;
+    text-align: center;
+    width: 50%;
+    border: 3px solid rgb(79, 108, 255);
+}
+
+
+.positionSticky{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border: 3px solid rgb(79, 108, 255);
+    background-color:rgb(79, 108, 255);
+}
+
+.animationContainer{
+    height: 35px;
+    background-color: rgb(153, 138, 242);
+    position: relative;
+    padding: 20px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(227, 22, 22);
+    border-radius: 50%;
+    position:absolute;
+    right: 0;
+    animation: moverCirculo 8s linear infinite;
+}
+@keyframes moverCirculo {
+    0%{
+        left: 0;
+        background-color: rgb(227, 22, 22);
+    }
+    50%{
+        background-color: rgb(0, 0, 246);
+        left: 97%;
+        border-radius: 0;
+    }
+    100%{
+        left: 0px;
+    }
