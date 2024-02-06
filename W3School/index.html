@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>W3School</title>
+</head>
+<body>
+    <section class="enlaces1">
+        <h1>HTML</h1>
+    </section>
+    <main class="docsContainer">
+        <section class="containerFlex containerAsaide">
+            <aside>
+                <li>
+                    <ul><a href="#forms">HTML Forms</a></ul>
+                    <ul><a href="#images">HTML Images</a></ul>
+                    <ul><a href="#symbols">HTML Symbols</a></ul>
+                    <ul><a href="#video">HTML Video</a></ul>
+                    <ul><a href="#audio">HTML Audio</a></ul>
+                    <ul><a href="#styles">HTML Styles</a></ul>
+                    <ul><a href="#tables">HTML Tables</a></ul>
+                    <ul><a href="#iframes">HTML Iframes</a></ul>
+                    <ul><a href="#list">HTML Lists</a></ul>
+                    <ul><a href="#attributes">HTML Attributes</a></ul>
+                    <ul><a href="#formatting">HTML Text Formatting</a></ul>
+                    <ul><a href="#comment">HTML Comments</a></ul>
+                    <ul><a href="#colors">HTML Colors</a></ul>
+                    <ul><a href="#blockAndInline">HTML Block and Inline Elements</a></ul>
+                    <ul><a href="#layout">HTML Layout Elements and Techniques</a></ul>
+                    <ul></ul>
+                    <ul></ul>
+                    <ul></ul>
+                    <ul></ul>
+                    <ul></ul>
+                    <ul></ul>
+                </li>
+            </aside>
+            
+            <section>
+                <div id="forms" class="caja">
+                    <h1>HTML Forms</h1>
+                    <br>
+                    <p>An HTML form is used to collect user input. The user input is most often sent to a server for processing.</p>
+                    <br>
+                    <h3>The &lt;form&gt; Element</h3>
+                    <br>
+                    <p>
+                        The HTML &lt;form&gt; element is used to create an HTML form for user input:
+                    </p>
+                    <div class="cajaRoja">
+                        <h4>Example</h4>
+                        <form action="#">
+                            <label for="">First name:</label>
+                            <br>
+                            <input type="text" value="John">
+                            <br>
+                            <label for="">Last name:</label>
+                            <br>
+                            <input type="text" value="Doe">
+                            <br>
+                            <input type="button" value="Submit">
+                        </form>
+                    </div>
+                </div>
+                <div id="images" class="caja">
+                    <h1>HTML Images</h1>
+                    <br>
+                    <p>
+                        Images can improve the design and the appearance of a web page.
+                    </p>
+                    <br>
+                    <div class="cajaRoja">
+                        <h4>Example</h4>
+                        &lt;img src="img_girl.jpg" alt="Girl in a jacket"&gt;
+                    </div>
+                </div>
+                <div id="symbols" class="caja">
+                    <h1>HTML Symbols</h1>
+                    <br>
+                    <p>
+                        Symbols or letters that are not present on your keyboard can be added to HTML using entities.
+                    </p>
+                    <br>
+                    <h3>HTML Symbol Entities</h3>
+                    <br>
+                    <p>
+                        HTML entities were described in the previous chapter. <br>
+
+                        Many mathematical, technical, and currency symbols, are not present on a normal keyboard. <br>
+
+                        To add such symbols to an HTML page, you can use the entity name or the entity number (a decimal or a hexadecimal reference) for the symbol: <br>
+                    </p>
+                    <br>
+                    <div class="cajaRoja">
+                        <h4>Example</h4>
+                        &lt;p&gt; I will display & euro; &lt;p&gt;
+                        &lt;p&gt; I will display & #8364; &lt;p&gt;
+                        &lt;p&gt; I will display & #x20AC; &lt;p&gt;
+                    </div>
+                    <div class="cajaRoja">
+                        <h4>Will display as:</h4>
+                        <p>I will display &euro;</p>
+                        <p>I will display &#8364;</p>
+                        <p>I will display &#x20AC;</p> 
+                    </div>
+                </div>
+                <div id="video" class="caja">
+                    <h1>HTML Video</h1>
+                    <br>
+                    <p>
+                        The HTML &lt;video&gt; element is used to show a video on a web page.
+                    </p>
+                    <br>
+                    <div class="cajaRoja">
+                        <h4>Example</h4>
+                        <p>
+                            Courtesy of Big Buck Bunny:
+                        </p>
+                        <br>
+                        <video width="400" controls>
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                    </div>
+                </div>
+                <div id="audio" class="caja">
+                    <h1>HTML Audio</h1>
+                    <p>
+                        The HTML &lt;audio&gt; element is used to play an audio file on a web page.
+                    </p>
+                    <br>
+                    <div class="cajaRoja">
+                        <h4>Example</h4>
+                        <br>
+                        <audio controls>
+                            <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+                            Your browser does not support the audio element.
+                        </audio> 
+                    </div>
+                </div>
+                <div id="styles"class="caja">
+                    <h1>HTML Styles</h1>
+                    <br>
+                    <p>
+                        The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+                    </p>
+                    <br>
+                    <div class="cajaRoja">
+                        <h4>Example</h4>
+                        <p>I am normal</p>
+                        <p style="color:red;">I am red</p>
+                        <p style="color:blue;">I am blue</p>
+                        <p style="font-size:50px;">I am big</p>
+                    </div>
+                </div>
+                <div class="caja" id="tables">
+                    <h1>HTML Tables</h1>
+                    <br>
+                    <p>
+                        HTML tables allow web developers to arrange data into rows and columns.
+                    </p>
+                    <br>
+                    <div class="cajaRoja">
+                        <h4>Example</h4>
+                        <table>
+                            <tr>
+                              <th>Company</th>
+                              <th>Contact</th>
+                              <th>Country</th>
+                            </tr>
+                            <tr>
+                              <td>Alfreds Futterkiste</td>
+                              <td>Maria Anders</td>
+                              <td>Germany</td>
+                            </tr>
+                            <tr>
+                              <td>Centro comercial Moctezuma</td>
+                              <td>Francisco Chang</td>
+                              <td>Mexico</td>
+                            </tr>
+                            <tr>
+                              <td>Ernst Handel</td>
+                              <td>Roland Mendel</td>
+                              <td>Austria</td>
+                            </tr>
+                            <tr>
+                              <td>Island Trading</td>
+                              <td>Helen Bennett</td>
+                              <td>UK</td>
+                            </tr>
+                            <tr>
+                              <td>Laughing Bacchus Winecellars</td>
+                              <td>Yoshi Tannamuri</td>
+                              <td>Canada</td>
+                            </tr>
+                            <tr>
+                              <td>Magazzini Alimentari Riuniti</td>
+                              <td>Giovanni Rovelli</td>
+                              <td>Italy</td>
+                            </tr>
+                          </table>
+                    </div>
+                </div>
+                <div class="caja" id="iframes">
+                    <h1>HTML Iframes</h1>
+                    <br>
+                    <p>
+                        An HTML iframe is used to display a web page within a web page.
+                    </p>
+                    <br>
+                    <div class="cajaRoja">
+                        <h4>Example</h4>
+                        <iframe src="index.html" title="Iframe Example"></iframe> 
+                    </div>
+                </div>
+                <div class="caja" id="list">
+                    <h1>HTML Lists</h1>
+                    <br>
+                    <p>
+                        HTML lists allow web developers to group a set of related items in lists.
+                    </p>
+                    <div class="cajaRoja">
+                        <h4>Example</h4>
+                        <ul>
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                          </ul>  
+                          
+                          <h2>An Ordered HTML List</h2>
+                          
+                          <ol>
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                          </ol> 
+                    </div>
+                </div>
+                <div class="caja" id="attributes">
+                    <h1>HTML Attributes</h1>
+                    <br>
+                    <p>
+                        HTML attributes provide additional information about HTML elements.
+                    </p>
+                    <div class="cajaRoja">
+                        <h4>Example</h4>
+                        <h4>HTML Attributes</h4>
+                        <ul>
+                            <li>All HTML elements can have attributes</li>
+                            <li>Attributes provide additional information about elements</li>
+                            <li>Attributes are always specified in the start tag</li>
+                            <li>Attributes usually come in name/value pairs like: name="value"</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="caja" id="formatting">
+                    <h1>HTML Text Formatting</h1>
+                    <br>
+                    <p>
+                        HTML contains several elements for defining text with a special meaning.
+                    </p>
+                    <br>
+                    <div class="cajaRoja">
+                        <h4>Example</h4>
+                        <p><b>This text is bold</b></p>
+                        <p><i>This text is italic</i></p>
+                        <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+                    </div>
+                </div>
+                <div class="caja" id="comment">
+                    <h1>HTML Comments</h1>
+                    <br>
+                    <p>
+                        HTML comments are not displayed in the browser, but they can help document your HTML source code.
+                    </p>
+                    <div class="cajaRoja">
+                        <p>&lt;!-- Write your comments here --&gt;</p>
+                    </div>
+                </div>
+                <div class="caja" id="colors">
+                    <h1>HTML Colors</h1>
+                    <br>
+                    <p>
+                        HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.
+                    </p>
+                    <br>
+                    <div class="cajaRoja">
+                        <h4>Color Names</h4>
+                        <p>
+                            In HTML, a color can be specified by using a color name:
+                        </p>
+                        <h1 style="background-color:Tomato;">Tomato</h1>
+                        <h1 style="background-color:Orange;">Orange</h1>
+                        <h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+                        <h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+                        <h1 style="background-color:Gray;">Gray</h1>
+                        <h1 style="background-color:SlateBlue;">SlateBlue</h1>
+                        <h1 style="background-color:Violet;">Violet</h1>
+                        <h1 style="background-color:LightGray;">LightGray</h1>
+                    </div>
+                </div>
+                <div class="caja" id="blockAndInline">
+                    <h1>HTML Block and Inline Elements</h1>
+                    <br>
+                    <p>
+                        Every HTML element has a default display value, depending on what type of element it is.
+                        <br>
+                        The two most common display values are block and inline.
+                    </p>
+                </div>
+                <div class="caja" id="layout">
+                    <h1>HTML Layout Elements and Techniques</h1>
+                    <br>
+                    <p>
+                        Websites often display content in multiple columns (like a magazine or a newspaper).
+                    </p>
+                    <div class="cajaRoja">
+                        <h4>Example</h4>
+                        <header>
+                            <h2>Cities</h2>
+                          </header>
+                          
+                          <section>
+                            <nav>
+                              <ul>
+                                <li><a href="#">London</a></li>
+                                <li><a href="#">Paris</a></li>
+                                <li><a href="#">Tokyo</a></li>
+                              </ul>
+                            </nav>
+                            
+                            <article>
+                              <h1>London</h1>
+                              <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+                              <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+                            </article>
+                          </section>
+                          
+                          <footer>
+                            <p>Footer</p>
+                          </footer>
+                    </div>
+                </div>
+            </section>
+            
+        </section>
+    </main>
+</body>
+</html>
