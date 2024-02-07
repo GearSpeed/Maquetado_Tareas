@@ -1,0 +1,27 @@
+@import 'post';
+@import 'global';
+
+
+.box{
+    @include flexbox();
+}
+h1{
+    color: $fontColor;
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    @include paragraph();
+}
+a{
+    &:link{
+        color: $fontColor;
+    }
+    &:visited{
+        color: $fontColor;
+    }
+    &:actived{
+        color: $fontColor;
+    }
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#imgBackGround{
+    background-image: url("https://picsum.photos/2000/3000/?blur");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+}
+#gitHub{
+    font-weight: bold;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: $fontColor;
+}
+#person{
+    @include blackBox();
+}

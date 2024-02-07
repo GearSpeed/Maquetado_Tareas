@@ -1,0 +1,22 @@
+$fontColor: whitesmoke;
+$background: black;
+
+@mixin flexbox(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin paragraph(){
+    text-align: center;
+    padding-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: $fontColor;
+}
+@mixin blackBox(){
+    background-color: $background;
+    padding: 1%;
+    opacity: 0.6;
+    border-radius: 25px;
+}
+
